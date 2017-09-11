@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#491313"
+    tools:context="com.mostafaabdel_fatah.appa.MainActivity">
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="App-A" />
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startActivity1_btnClicked"
+        android:text="Start activity 1"/>
+    <Button
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startActivity2_btnClicked"
+        android:text="Start activity 2"/>
+
+</LinearLayout>
